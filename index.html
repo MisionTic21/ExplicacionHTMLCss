@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />    
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/estilos.css">
         <title>Hola este es el título</title>
         <description>Esta es la descripción de mi web</description>
     </head>
@@ -12,8 +13,8 @@
             Este es el Header
             <h3>Esto es una lista ordenanda:</h3>
             <ol>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
+                <li class="textoGris fondoRojo textoNegritaGrande">Elemento 1</li>
+                <li class="textoVerde fondoAmarillo">Elemento 2</li>
                 <li>Elemento 3</li>
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>
@@ -25,7 +26,7 @@
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>
             </ul>
-            <div>Hola, esto es un div</div>
+            <div class="textoNegritaGrande textoVerde">Hola, esto es un div</div>
         </header>
         ><main>
             <section>
@@ -37,24 +38,32 @@
                 <h6>Este es un título h6</h6>
                 <article>
                     <h3>Párrafo 1</h3>
-                    <p>
+                    <p class="textoGris parrafoAngosto">
+                        Esto es un párrafo
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore deserunt veniam itaque dolor accusantium incidunt, nisi numquam dolorum unde, dolore doloribus reprehenderit id voluptatum. Distinctio illum ipsa totam temporibus?
+                    </p>
+                    <p class="textoVerde">
+                        Esto es un párrafo
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore deserunt veniam itaque dolor accusantium incidunt, nisi numquam dolorum unde, dolore doloribus reprehenderit id voluptatum. Distinctio illum ipsa totam temporibus?
+                    </p>
+                    <p class="textoGris">
                         Esto es un párrafo
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore deserunt veniam itaque dolor accusantium incidunt, nisi numquam dolorum unde, dolore doloribus reprehenderit id voluptatum. Distinctio illum ipsa totam temporibus?
                     </p>
                     <h3>Párrafo 2</h3>
-                    <p>
+                    <p class="textoVerde">
                         Esto es un párrafo
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore deserunt veniam itaque dolor accusantium incidunt, nisi numquam dolorum unde, dolore doloribus reprehenderit id voluptatum. Distinctio illum ipsa totam temporibus?
                     </p>
                     <h3>Párrafo 3</h3>
-                    <p>
+                    <p id="parrafo3">
                         Esto es un párrafo
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore deserunt veniam itaque dolor accusantium incidunt, nisi numquam dolorum unde, dolore doloribus reprehenderit id voluptatum. Distinctio illum ipsa totam temporibus?
                     </p>
                     <span>Este es un texto corto tipo span</span>
                 </article>
                 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google">
-                <img src="./media/Border-Collie-perro-1-696x481.jpg" alt="Foto de un Border Collie">
+                <img src="./media/Border-Collie-perro-1-696x481.jpg" class="imagenPequeña" alt="Foto de un Border Collie">
                 <div></div>
                 <a href="https://google.com">Este es un link externo</a>
                 <a href="./paginatest.html">Este es un link interno</a>
@@ -63,7 +72,32 @@
                 </a>
                 <a href="./formulario.html">Formulario</a>
             </section>
-            <section>Tabla con la info</section>
+            <section>
+                <div class="contenedorConMargen">
+                    <div>Div 1</div>
+                    <div>Div 2</div>
+                    <div>Div 3</div>
+                </div>
+                <div class="contenedorDivsGrid">
+                    <div class="divTest">DIv 1</div>
+                    <div class="divTest">DIv 2</div>
+                    <div class="divTest">DIv 3</div>
+                    <div class="divTest">DIv 4</div>
+                    <div class="divTest">DIv 5</div>
+                    <div class="divTest">DIv 6</div>
+                    <div class="divTest">DIv 7</div>
+                </div>
+                </div>
+                <div class="contenedorDivsFlex">
+                    <div class="divTest">Div 1</div>
+                    <div class="divTest">DIv 2</div>
+                    <div class="divTest">DIv 3</div>
+                    <div class="divTest">DIv 4</div>
+                    <div class="divTest">DIv 5</div>
+                    <div class="divTest">DIv 6</div>
+                    <div class="divTest">DIv 7</div>
+                </div>
+            </section>
             <section>Sección 3</section>
         </main>
         <footer>
